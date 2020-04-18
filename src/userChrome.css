@@ -1,0 +1,56 @@
+/* Style the address bar to match the theme, remove the padding against the window edge */
+.browser-toolbar:not(.titlebar-color) {
+	background-color: transparent !important;
+	margin-left: -6px !important;
+}
+
+/* Align the address bar with the tabs, and its start at the far-left */
+#nav-bar {
+	margin-right: calc(100vw - 300px) !important;
+	margin-top: -30px !important; }
+
+/* Remove the inset dropdown from the address bar */
+#page-action-buttons { display: none; }
+
+/* Set the size of the address bar */
+#urlbar-container { 
+	max-width: 300px !important; 
+	min-width: 300px !important; 
+	width: 300px !important }
+
+/* Font sizes for address and dropdown */
+#urlbar { font-size: 7pt !important; }
+#urlbar-results { font-size: 10pt !important; }
+
+/* Hide both back and forward buttons */
+#back-button { display: none;  }
+#forward-button { display: none;  }
+
+/* Max width of tabs */
+.tabbrowser-tab { max-width: 50px !important; }
+
+/* Ensure scroll buttons appear to indicate 
+ further tabs aligned with the end of the address bar */
+#TabsToolbar { padding-left: 300px !important; }
+
+/* Hide the tab drop-down that appears */
+#alltabs-button { display: none; }
+
+/* Make the OS collapse/min/max/close buttons less intrusive */
+.titlebar-spacer { width: 0px !important; }
+.titlebar-button { padding: 0px !important; }
+
+/* Hide dropdown that appears to the right of the nav bar under certain cirumstance */
+#PanelUI-button { 
+ display: none; }
+
+/* Hide the buttons that appear in the right-click context menu. */
+#context-back image,
+#context-forward image,
+#context-reload image,
+#context-stop image,
+#context-bookmarkpage image,
+#context-navigation,
+#context-sep-navigation {
+    display:none !important;
+}
