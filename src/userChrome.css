@@ -9,6 +9,11 @@
 	margin-right: calc(100vw - 300px) !important;
 	margin-top: -30px !important; }
 
+/* Hide the thin line between the tabs and the main viewport. */
+#navigator-toolbox { 
+	border-bottom: none !important;
+}
+
 /* Remove the inset dropdown from the address bar */
 #page-action-buttons { display: none; }
 
