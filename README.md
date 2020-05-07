@@ -29,9 +29,9 @@ Copy the `src/userChrome.css` file into your Firefox profile:
 2. Place the copied file in this directory (creating it if necessary).
 3. Restart Firefox.
 
-### Current Version(s)
+### Supported Version(s)
 
-- Firefox 75.0
+- Firefox 75.0, 76.0
 - Windows 10 (default theme)
 
 ## Further images
