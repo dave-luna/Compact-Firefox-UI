@@ -31,9 +31,6 @@
 #back-button { display: none;  }
 #forward-button { display: none;  }
 
-/* Max width of tabs */
-.tabbrowser-tab { max-width: 50px !important; }
-
 /* Ensure scroll buttons appear to indicate 
  further tabs aligned with the end of the address bar */
 #TabsToolbar { padding-left: 300px !important; }
