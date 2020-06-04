@@ -31,7 +31,7 @@ Copy the `src/userChrome.css` file into your Firefox profile:
 
 ### Supported Version(s)
 
-- Firefox 75.0, 76.0
+- Firefox 77
 - Windows 10 (default theme)
 
 ## Further images
