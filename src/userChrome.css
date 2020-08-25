@@ -43,8 +43,10 @@
 .titlebar-button { padding: 0px !important; }
 
 /* Hide dropdown that appears to the right of the nav bar under certain cirumstance */
-#PanelUI-button { 
- display: none; }
+#PanelUI-button { display: none; }
+
+/* Hide the 'nav bar overflow button' which also exists now for some reason */
+#nav-bar-overflow-button { display: none; }
 
 /* Hide the buttons that appear in the right-click context menu. */
 #context-back image,
