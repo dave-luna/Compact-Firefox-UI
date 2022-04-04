@@ -1,13 +1,14 @@
 /* Style the address bar to match the theme, remove the padding against the window edge */
 .browser-toolbar:not(.titlebar-color) {
 	background-color: transparent !important;
-	margin-left: -6px !important;
+	margin-left: -10px !important;
 }
 
 /* Align the address bar with the tabs, and its start at the far-left */
 #nav-bar {
 	margin-right: calc(100vw - 300px) !important;
-	margin-top: -30px !important; }
+	margin-top: -33px !important;
+}
 
 /* Hide the thin line between the tabs and the main viewport. */
 #navigator-toolbox { 
@@ -21,7 +22,8 @@
 #urlbar-container { 
 	max-width: 300px !important; 
 	min-width: 300px !important; 
-	width: 300px !important }
+	width: 300px !important;
+}
 
 /* Font sizes for address and dropdown */
 #urlbar { font-size: 7pt !important; }
@@ -30,6 +32,7 @@
 /* Hide both back and forward buttons */
 #back-button { display: none;  }
 #forward-button { display: none;  }
+
 
 /* Ensure scroll buttons appear to indicate 
  further tabs aligned with the end of the address bar */
