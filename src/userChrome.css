@@ -1,13 +1,16 @@
 /* Style the address bar to match the theme, remove the padding against the window edge */
 .browser-toolbar:not(.titlebar-color) {
 	background-color: transparent !important;
-	margin-left: -10px !important;
 }
+
+/* Hide the extensions and downloads buttons that appears next to the address bar */
+#unified-extensions-button { display: none; }
+#downloads-button { display: none; }
 
 /* Align the address bar with the tabs, and its start at the far-left */
 #nav-bar {
-	margin-right: calc(100vw - 300px) !important;
-	margin-top: -33px !important;
+	margin-right: calc(100vw - 343px) !important;
+	margin-top: -43px !important;
 }
 
 /* Hide the thin line between the tabs and the main viewport. */
@@ -36,7 +39,7 @@
 
 /* Ensure scroll buttons appear to indicate 
  further tabs aligned with the end of the address bar */
-#TabsToolbar { padding-left: 300px !important; }
+#TabsToolbar { padding-left: 343px !important; }
 
 /* Hide the tab drop-down that appears */
 #alltabs-button { display: none; }

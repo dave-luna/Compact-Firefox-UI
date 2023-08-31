@@ -31,8 +31,10 @@ Copy the `src/userChrome.css` file into your Firefox profile:
 
 ### Supported Version(s)
 
-- Firefox 98.0.2
-- Windows 10 (default or dark theme)
+- Firefox 117.0
+- Windows 11 (default or dark theme)
+
+The above configuration is what I run it with personally, and I try to keep up to date. It should work for many older versions though, and hopefully for future versions without the need for constant adjustments.
 
 ## Further images
 
